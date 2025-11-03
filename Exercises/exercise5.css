@@ -1,0 +1,5 @@
+.container:has(h2 + p) {
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 8px;
+}

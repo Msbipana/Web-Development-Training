@@ -1,0 +1,14 @@
+button{
+    background-color: bisque;
+    color:black;
+}
+button:hover{
+    background-color:blue;
+}
+button:active{
+    background-color: aquamarine;
+    color: darkolivegreen;
+}
+button:focus{
+    border:1px solid black
+}
