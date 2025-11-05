@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+    <style>
+        .hover-text-primary:hover { color: #0d6efd !important; }
+        .hover-text-danger:hover { color: #dc3545 !important; }
+        .hover-text-info:hover { color: #0dcaf0 !important; }
+
+        .bg-dark-green {
+            background-color: #1a5319;
+        }
+        .bg-lime-green {
+            background-color: #86dc3d;
+            color: #1a5319; 
+        }
+        .text-dark-green {
+            color: #1a5319;
+        }
+        .rounded-2xl {
+            border-radius: 1.5rem !important; 
+        }
+        .card-shadow {
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.06);
+        }
+        .card-image {
+            height: 100%;
+            object-fit: cover;
+            border-top-left-radius: 1.5rem;
+            border-bottom-left-radius: 1.5rem;
+            min-height: 250px; 
+        }
+
+        .dark-green-card h1, .dark-green-card p {
+            color: white;
+        }
+
+        @media (max-width: 991.98px) {
+            .stats-block {
+                margin-bottom: 1rem;
+            }
+        }
+
+    </style>
+
+</head>
+<body class="bg-white">
+    <nav class="navbar navbar-enpand-lg navbar-light border-bottom py-3">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-success fs-3" href="#">Digexa</a><!--fs-3(font-size is 3)-->
+            <!--“data-bs-toggle=collapse -> this tells us the element should be used to trigger a collapse action.”
+            “data-bs-target=”#navMenu” -> this tells which element should target to apply collapse action to.”-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link fw-semibold" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link fw-semibold" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link fw-semibold" href="#">Services</a></li>
+                    <li class="nav-item"><a class="nav-link fw-semibold" href="#">Work</a></li>
+                    <li class="nav-item"><a class="nav-link fw-semibold" href="#">Contact</a></li>
+                </ul>
+                <a href="#" class="btn btn-success fw-semibold ms-lg-3 px-4">Get Started</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="fw-bold display-5 mt-2">
+                        Grow Your Business with <br> Data-Driven Digital Marketing
+                    </h1>
+                    <p class="lead mt-3 text-secondary">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa veniam quidem architecto esse, nostrum doloribus quod sint libero explicabo similique atque perspiciatis error facilis quo, laboriosam optio veritatis, minus inventore!
+                    </p>
+                    <div class="mt-4 d-flex gap-3">
+                        <a href="#" class="btn btn-success px-4">Get Started</a>
+                        <a href="#" class="btn bt-outline-success px-4">Contact Us</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center mt-5 mt-lg-0 position-relative">
+                   <img src="https://via.placeholder.com/500x400" class="img-fluid rounded-3" alt="Marketing Image">
+                    <div class="position-absolute bottom-0 start-50 translate-middle-x bg-white shadow rounded-3 px-4 py-3" style="width: 250px; transform: translate(50%)">
+                       <p class="mb-0 fw-bold">Creating Impactful Digital Experiences</p> 
+                       <div class="d-flex align-items-center justify-content-between mt-2">
+                        <div>
+                            <span class="fw-bold fs-4 text-success">9.6</span><br>
+                            <small class="text-secondary">Client Rating</small>
+                        </div>
+                        <img src="https://via.placeholder.com/50" class="rounded-circle" alt="Client">
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-4 align-items-stretch">
+                <div class="col-md-6">
+                    <div class="card bg-dark-green dark-green-card border-0 rounded-2xl card-shadow overflow-hidden p-0 h-100">
+                        <div class="row g-0">
+                            <div class="col-sm-5">
+                                <img src="strategies.jpg" class="img-fluid card-image" alt="Two experts working on a digital screen.">
+                            </div>
+                            <div class="col-sm-7 d-flex align-items-center">
+                                <div class="card-body p-4 p-md-5">
+                                    <h1 class="card-title fw-bold mb-3 fs-3">
+                                        Maximize Your Growth with Our Expert Digital Marketing
+                                    </h1>
+                                    <p class="card-text mb-4 opacity-75">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                                    </p>
+                                    <a href="#" class="btn bg-lime-green text-dark-green fw-bold px-4 py-2 rounded-2xl border-0 shadow-lg">
+                                        Learn More
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 d-flex flex-column">
+                    <div class="card border-0 rounded-2xl card-shadow p-4 mb-4 flex-grow-1 d-flex flex-column justify-content-center">
+                        <div class="d-flex justify-content-between align-items-start mb-2">
+                            <h2 class="card-title fw-bold fs-4 text-dark-green">
+                                Success Our Priority
+                            </h2>
+                            <i class="fas fa-check-circle fs-3 text-success"></i>
+                        </div>
+                        <p class="card-text text-muted small">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
+                        </p>
+                    </div>
+
+                    <div class="row g-2 flex-shrink-0"><!--flex-shrink-0(it won't let item to shrink from the container even if it is small)-->
+                        <div class="col-4 stats-block">
+                            <div class="p-3 text-center rounded-2xl bg-lime-green h-100 d-flex flex-column justify-content-center">
+                                <h3 class="fs-4 fw-bolder mb-0">172+</h3>
+                                <small class="text-uppercase fw-semibold" style="font-size: 0.65rem;">Drive Engagement</small>
+                            </div>
+                        </div>
+                        <div class="col-4 stats-block">
+                            <div class="p-3 text-center rounded-2xl bg-lime-green h-100 d-flex flex-column justify-content-center">
+                                <h3 class="fs-4 fw-bolder mb-0">283+</h3>
+                                <small class="text-uppercase fw-semibold" style="font-size: 0.65rem;">Digital Presence</small>
+                            </div>
+                        </div>
+                        <div class="col-4 stats-block">
+                            <div class="p-3 text-center rounded-2xl bg-lime-green h-100 d-flex flex-column justify-content-center">
+                                <h3 class="fs-4 fw-bolder mb-0">453+</h3>
+                                <small class="text-uppercase fw-semibold" style="font-size: 0.65rem;">Creating Impactful</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 border-bottom">
+    <div class="container text-center">
+        <div class="row g-4 align-items-center justify-content-center">
+        <div class="col-4 col-md-2">
+            <a href="#" class="text-secondary fs-1 d-inline-block hover-text-primary">
+            <i class="bi bi-facebook"></i>
+            </a>
+        </div>
+        <div class="col-4 col-md-2">
+            <a href="#" class="text-secondary fs-1 d-inline-block hover-text-info">
+            <i class="bi bi-twitter-x"></i>
+            </a>
+        </div>
+        <div class="col-4 col-md-2">
+            <a href="#" class="text-secondary fs-1 d-inline-block hover-text-primary">
+            <i class="bi bi-linkedin"></i>
+            </a>
+        </div>
+        <div class="col-4 col-md-2">
+            <a href="#" class="text-secondary fs-1 d-inline-block hover-text-danger">
+            <i class="bi bi-instagram"></i>
+            </a>
+        </div>
+        <div class="col-4 col-md-2">
+            <a href="#" class="text-secondary fs-1 d-inline-block hover-text-danger">
+            <i class="bi bi-youtube"></i>
+            </a>
+        </div>
+        </div>
+    </div>
+    </section>
+
+    <section class="container my-5">
+        <div class="row align-items-center g-4">
+            <div class="col-md-6">
+                <img src="strategies.jpg" alt="" class="img-fluid rounded shadow">
+            </div>
+
+            <div class="col-md-6">
+                <div class="d-flex mb-4 align-items-start">
+                    <span class="badge bg-primary rounded-circle me-3 p-3 fs-5">01</span>
+                    <div>
+                        <h5 class="fw-bold">Customized Strategies</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quia rem aut iure nesciunt odio corporis et, hic beatae, ipsam, nostrum soluta ad accusantium vero. Nam cum consequuntur repellat velit.</p>
+                    </div>
+                </div>
+
+                <div class="d-flex mb-4 align-items-start">
+                    <span class="badge bg-primary rounded-circle me-3 p-3 fs-5">02</span>
+                    <div>
+                        <h5 class="fw-bold">Experienced Team</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore velit odio provident fugit quisquam, voluptatum laborum explicabo voluptates nam quam, illo reprehenderit voluptatem, suscipit repellendus itaque ratione necessitatibus ipsa. Accusamus.</p>
+                    </div>
+                </div>
+
+                <div class="d-flex mb-4 align-items-start">
+                    <span class="badge bg-primary rounded-circle me-3 p-3 fs-5">03</span>
+                    <div>
+                        <h5 class="fw-bold">Client-Centric Approach</h5>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis vel magnam fuga accusamus non tempora, quo veritatis aliquid dolor eius, voluptatem quibusdam, inventore debitis quas nostrum? Veritatis aperiam dolor esse.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <h5 class="fw-bold text-success">Digexa</h5>
+            <p class="mb-1">Your Partner in Digital Growth</p>
+            <p class="mb-0 small">&copy; 2025 Digexa. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" xintegrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
