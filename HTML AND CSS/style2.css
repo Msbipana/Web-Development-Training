@@ -1,0 +1,105 @@
+.marksheet {
+    max-width: 2000px;
+    margin: auto;
+    background: white;
+    border: 3px solid #222;
+}
+
+.text-centered{
+    text-align: center;
+}
+h1{
+    color: red;
+    margin-bottom: 5px;
+}
+h3{
+    margin-bottom: 20px;
+}
+
+.table-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+table,th,td{
+    border-collapse: collapse;
+    border: 1px solid black ;
+}
+.table0{
+    border: 1px solid black;
+    width: 10%;
+}
+.table1{
+    border: 1px solid black;
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin-left: auto;
+}
+.table2{
+    width: 20%;
+    margin-bottom: 15px;
+}
+.table3 {
+    margin-left: auto;
+    margin-bottom: 20px;
+    width: 20%;
+}
+.table4{
+    border: 1px solid black;
+    width: 75%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.table5{
+    width: 100%;
+}
+.table-flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.table6 td,.table7 td{
+    width: 60px;
+}
+.table8{
+    width: 100%;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.table th{
+    width: 40%;
+}
+.blue-color{
+    background-color: lightblue;
+}
+.orange-color{
+    background-color: rgb(231, 193, 123);
+}
+.yellow{
+    background-color: #ffebbc;
+}
+.green{
+    background-color: rgb(89, 176, 89);
+}
+.light-pink{
+    background-color: lightpink;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f6f6f6;
+    margin: 0;
+    padding: 20px;
+}
+
+
+.blur-bg{
+    /*Standard property*/
+    backdrop-filter: blur(10px);
+
+    /*property with a vendor prefix*/
+    -webkit-backdrop-filter: blur(10px);
+}

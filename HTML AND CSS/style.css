@@ -1,0 +1,27 @@
+body{
+    background-color:bisque;
+    font-family: Arial, sans-serif;
+}
+h1{
+    font-size: 10px;
+    color: lightpink;
+}
+p{
+    margin: 20 px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.styled-list li, styled-paragraph{
+    background-color: bisque;
+    border: 1px solid #ccc;
+    margin: 5px;
+    padding: 5px;
+}
+#styled-paragraph span{
+    background-color: aquamarine;
+    padding: 3px;
+}
+table,th,td{
+    margin:3px solid black ;
+}

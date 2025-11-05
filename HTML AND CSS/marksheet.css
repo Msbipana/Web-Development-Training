@@ -1,0 +1,114 @@
+/* ===== General Styling ===== */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f6f6f6;
+    margin: 0;
+    padding: 20px;
+}
+
+.marksheet {
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    border: 3px solid #222;
+    padding: 25px 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/* ===== Headings ===== */
+.text-centered {
+    text-align: center;
+}
+h1 {
+    color: red;
+    margin-bottom: 5px;
+}
+h3 {
+    margin-bottom: 20px;
+}
+
+/* ===== Table Base ===== */
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 6px 10px;
+    text-align: center;
+}
+
+/* ===== Top Section ===== */
+.top-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.table0, .table1 {
+    border: 1px solid black;
+}
+.table1 td.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+/* ===== Personal Info ===== */
+.info-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.table2, .table3 {
+    width: 48%;
+}
+
+/* ===== Main Table ===== */
+.table4 {
+    border: 1px solid black;
+    padding: 15px;
+    background-color: #fffdf5;
+}
+.table5 {
+    width: 100%;
+    margin-bottom: 15px;
+}
+.table5 th {
+    font-weight: bold;
+}
+
+/* ===== Color Classes ===== */
+.blue-color {
+    background-color: lightblue;
+}
+.orange-color {
+    background-color: #f7d8a7;
+}
+.yellow {
+    background-color: #ffebbc;
+}
+.green {
+    background-color: #9be09b;
+}
+.light-pink {
+    background-color: lightpink;
+}
+
+/* ===== Summary Tables ===== */
+.table-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.table6, .table7 {
+    width: 48%;
+}
+.table6 td, .table7 td {
+    width: 60px;
+}
+
+/* ===== Footer ===== */
+.table8 {
+    width: 100%;
+    margin-top: 20px;
+    font-weight: bold;
+    color: red;
+}
